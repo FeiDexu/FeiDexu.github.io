@@ -22,7 +22,7 @@
     <meta name="description" content="">
     <meta http-equiv="Cache-control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <title>fi3ework&#39;s Studio</title>
+    <title>Hello World · fi3ework&#39;s Studio</title>
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
@@ -77,6 +77,8 @@
 
     <link rel="preload" href= "/css/style.css?v=20180824" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <link rel="stylesheet" href= "/css/mobile.css?v=20180824" media="(max-width: 980px)">
+    
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     
     <!-- /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
 /* This file is meant as a standalone workflow for
@@ -201,10 +203,8 @@
 </head>
 
     
-        <body class="home-body">
     
-    
-<header class="header index-header">
+<header class="header">
 
     <div class="read-progress"></div>
     <div class="header-sidebar-menu">&#xe775;</div>
@@ -220,34 +220,21 @@
 
 
 
-
-height:50vh;
 ">
     
     <!-- 主页  -->
-    
-    
-    <!-- 文章页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(/intro/index-bg.jpg)"></div>
+    <div class="site-intro-img" style="background-image: url(/)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
             
-            Yukino的博客
-            <!-- 文章页  -->
-            
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
-            
-            
-                朱音千里，舞而倾之。
-            
-            <!-- 文章页  -->
             
         </p>
         <!-- 文章页meta -->
@@ -351,337 +338,58 @@ height:50vh;
 </script>        
         <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
         <div class="container container-unloaded">
-            <main class="main index-page">
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2019/10/23/day9-%E5%AD%97%E7%AC%A6%E4%B8%B2/" >
-            
-                <span>day9-字符串</span>
-        </a>
-        <div class="abstract-content">
-            [费德旭]#day9-字符串##回顾###1.字典
-12345"""key in / not in 字典len(), dict()"""
+            <main class="main post-page">
+    <article class="article-entry">
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
-###2.集合
-12345"""元素唯一性（自带去重）数据集合运算：并(|)，交(&amp;)，差(^)，对称差，补，包含与被包含--子集（&gt;/&lt;)"""
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
-
-###3.字符串
-12345678910"""不可变，有序字符串里的每一个字符如果单独拿出来也是字符串'aedfgrewFWGW'----》比如'a','F'单独拿出来都可以作为字符串字符：转义字符：\n, \t, \', \", \\编码字符：\u4e00  , chr(编...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/10/23</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
     </article>
+    <!-- license  -->
     
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2019/10/23/day8-%E5%AD%97%E5%85%B8%E5%92%8C%E9%9B%86%E5%90%88/" >
-            
-                <span>day8-字典和集合</span>
-        </a>
-        <div class="abstract-content">
-            [费德旭]#day8-字典和集合
-##上次回顾》》
-1.列表(list)
-12345678910"""列表.count(元素)----》统计个数列表.index(元素)----》 获取下标列表.extend(序列)----》 增加元素列表.reverse()----》逆反列表元素列表.sort()/列表.sort(reverse=True) ----》sorted.(序列)列表.clear()列表.copy()"""
-
-2.元组(tuple)
-123456789"""是不可变的列表，用括号作为容器标志，元素之间要用逗号隔开单个元素的元组后面要加逗号  ——》names = ('zhang...
+        <div class="license-wrapper">
+            <p>原文作者：<a href="http://yoursite.com">name二见</a>
+            <p>原文链接：<a href="http://yoursite.com/hello-world.html">http://yoursite.com/hello-world.html</a>
+            <p>发表日期：<a href="http://yoursite.com/hello-world.html">November 12th 2019, 5:04:40 pm</a>
+            <p>更新日期：<a href="http://yoursite.com/hello-world.html">October 23rd 2019, 7:38:57 pm</a>
+            <p>版权声明：本文采用<a rel="license noopener" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
         </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/10/23</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2019/10/23/day7-%E5%85%83%E7%BB%84%E5%92%8C%E5%AD%97%E5%85%B8/" >
-            
-                <span>day7-元组和字典</span>
-        </a>
-        <div class="abstract-content">
-            [费德旭]#day7-元组和字典
-##一、列表相关运算和操作
-###1.数学运算符—》只支持+(加)和*(乘)
-####1）列表相加
-12345678910111213141516"""列表1 + 列表2产生一个新的列表（合并后的元素不存在与列表1和列表2）"""names = ['wang', 'zhang', 'fei', 'liu']nums = [2, 2, 9, 78, 3]print(names + nums)print(nums)print(names)print('==========================================')nums2 = nu...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/10/23</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2019/10/23/day6-%E5%88%97%E8%A1%A8/" >
-            
-                <span>day6-列表</span>
-        </a>
-        <div class="abstract-content">
-            [费德旭]#day6-列表##1.什么是列表(list)
-123456789101112131415161718192021"""列表是容器型数据类型（序列），将[]作为容器的标志，每个元素用逗号隔开。[元素1， 元素2， 元素3， ..., 元素n]列表是可变的（个数、值和顺序可变），元素的并且有序的（列表一旦确定，列表中的元素的顺序便确定了）2）列表中的元素任何类型的数据都可以作为列表元素，而且同一个列表的元素类型可以不一样[12, 33, 'aww', 2.36, '遵义']这一点其他语言是不具备的"""list1 = [12, 33, 'aww', 2.36, '遵义']prin...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/10/23</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2019/10/23/day5-%E5%88%86%E6%94%AF%E5%92%8C%E5%BE%AA%E7%8E%AF%E7%9A%84%E5%B7%A9%E5%9B%BA/" >
-            
-                <span>day5-分支和循环的巩固</span>
-        </a>
-        <div class="abstract-content">
-            [费德旭]#day5-分支和循环的巩固##补充：python中的三目运算符
-123456789101112"""C中的三目运算符：---&gt; ?:语法：  条件语句 ?: 值1:值2  ----&gt;如果条件语句的结果是True（非0），则结果为值1，否则就为值2python中的三目运算符  --&gt;语法：值1 if 条件语句 else 值2   ----&gt;如果条件语句的结果为True，则结果为值1，否则为值2"""age = 12result = '成年' if age &gt;= 18 else '未成年'print(result)
-
-
-##1.三个关键字
-###1）...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/10/23</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2019/10/23/day4-%E5%88%86%E4%B9%8B%E5%92%8C%E5%BE%AA%E7%8E%AF/" >
-            
-                <span>day4-分之和循环</span>
-        </a>
-        <div class="abstract-content">
-            [费德旭]
-#day4-分之和循环
-##0-1if分之结构
- ###1.分之结构： python中的分之结构只有if，没有switch（其他语言中有，比如Java，C，js等）###2.if的使用####2.1 if结构
-123456789101112131415161718192021222324252627282930313233343536"""1）语法if 条件语句：    代码块2）说明if ---&gt; 关键字（固定的）条件语句 ---&gt; 有结果的表达式（只要不是赋值语句都可以），一般都是布尔值: ---&gt; 冒号是固定的写法，冒号后一行有缩进代码块 ---&gt...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/10/23</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2019/10/23/day3--%E5%8F%98%E9%87%8F%E5%92%8C%E8%BF%90%E7%AE%97%E7%AC%A6/" >
-            
-                <span>day3--变量和运算符</span>
-        </a>
-        <div class="abstract-content">
-            [费德旭]
-#day3–变量和运算符##一、变量
-1.什么是变量 变量是用来申请空间存储数据的
-12345400600width = 400    #width即变量height = 600arg = 22
-
-###2.声明变量
-C语言的变量声明
-123**先定义变量类型，再赋值int arg;arg=19
-
-python的变量声明
-123456789101112131415161718192021222324252627# 2.变量和变量声明"""1)语法变量名 = 值arg = 222）说明变量名 ----&gt; 程序员自己命名的要求：是标识符，不能是关键字规范：见名知义（最好是看...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/10/23</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2019/10/23/day2--python%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/" >
-            
-                <span>day2--python语言基础</span>
-        </a>
-        <div class="abstract-content">
-            费德旭
-#day2–python语言基础
-##一、基础知识
-  如果第三方库放在系统解释器，则每次运行程序时都会加载第三方库虚拟环境的话，则每次需要使用第三方库只需使用所需要的虚拟环境的解释器就行了###1.常用快捷键| 快捷键          | 作用         | 备注             || ———— | ———- | ————– || Ctrl+s       | 保存         | 最好养成习惯         || Ctrl+/       | 添加注释或者取消注释 | 可以选择多行注释或者多行取消 || Ctrl+A       | 全选        ...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/10/23</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
     
     <!-- paginator  -->
-    
-</main>
-            <!-- profile -->
+    <ul class="post-paginator">
+        <li class="next">
             
-            <div class="profile">
-    <img class="profile-avatar" alt="avatar" src= /avatar/qq.jpg >
-    <div class="profile-name">name二见</div>
-    
-    <div class="profile-signature">
-        如有问题，请联系我~
-    </div>
-    
-    
-    <div class="profile-social">
-        
-    
-        
+        </li>
+        <li class="previous">
             
-                <a href="mailto:2937523946@qq.com" target="_blank" rel="noopener" class="iconfont-archer email" title=email ></a>
-            
-        
+        </li>
+    </ul>
+    <!-- 评论插件 -->
+    <!-- 来必力City版安装代码 -->
+
+<!-- City版安装代码已完成 -->
     
-        
-            
-                <a href="//github.com/FeiDexu" class="iconfont-archer github" target="_blank" title=github></a>
-            
-        
     
-        
-            
-                <span class="iconfont-archer wechat" title=wechat>
-                  
-                  <img class="profile-qr" src="/assets/example_qr.png" />
-                </span>
-            
-        
+    <!-- partial('_partial/comment/changyan') -->
+    <!--PC版-->
+
+
     
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
     
 
-    </div>
-    
-    
-        <div class="friends">
-            <div>FRIENDS</div>
-            
-                
-                    <span>
-                        <a href= //www.baidu.com target="_black">friendA</a>
-                    </span>
-                
-            
-                
-                    <span>
-                        <a href= //www.google.com target="_black">friendB</a>
-                    </span>
-                
-            
-                
-            
-        </div>
-    
-    
-        <div class="about-me">
-            <a href = "/about" >ABOUT ME</a>
-        </div>
-    
-</div>
+    <!-- 评论 -->
+</main>
+            <!-- profile -->
             
         </div>
         <footer class="footer footer-unloaded">
